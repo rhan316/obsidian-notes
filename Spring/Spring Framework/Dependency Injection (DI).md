@@ -1,0 +1,25 @@
+1. Czym jest Dependency Injection (DI)
+	- DI to proces, w którym obiekt dostaje swoje zależności poprzez konstruktor, metodę fabryczną lub settery zamiast samodzielnego tworzenia ich instancji. Kontener wstrzykuje te zależności podczas tworzenia beana.
+	- DI upraszcza kod i ułatwia testowanie, gdy zależności są interfejsami lub klasami abstrakcyjnymi, co umożliwia łatwe zastępowanie ich atrapami w testach
+- Typy DI
+	- Constructor-based DI: Wstrzykiwanie zależności przez konstuktor (wymagane zależności)
+	- Setter-based DI: Wstrzykiwanie przez metody settery (opcjonalne zależności) 
+- Constructor-based DI:
+	- Kontener wywołuje konstruktor z argumentami odpowiadającymi zależnościom beana.
+	- Argumenty mogą być rozpoznawane po typie, indeksie lub nazwie (wymaga flagi -parameters w kompilacji lub adnotacji @ConstructorProperties)
+- Wybór DI:
+	- Constructor-based DI - zalecane dla zależności obowiązkowych. Sprzyja niemutowalności i zapewnia, że zależności nie będą null
+	- Setter-based DI - używane dla opcjonalnych zależności lub gdy re-inicjalizacja beana jest potrzebna, np. w zarządzaniu przez JMX
+- Proces rozwiązywania zależności
+	- kontener tworzy ApplicationContext, a zależności są wyrażane jako właściwości lub argumenty konstruktora
+	- wszystkie właściwości są konwertowane na odpowiedni typ (np. int, string)
+	- Przy cyklu życia beana zależności są tworzone przed wstrzyknięciem obiektu
+
+- Obsługa cyklicznych zależności
+	- Jeśli istnieje cykliczna zależnośc (np. A wymaga B, a B wymaga A), Spring wykryje to i zgłosi BeanCurrentlyCreationExeption
+	- Możliwe rozwiązania to użycie setterów zamiast konstruktorów lub rezygnacja z cyklicznych zależności
+- Przykłady DI:
+	- Setter-based DI w XML: Definicje beanów z zależnościami ustawionymi za pomocą setterów
+	- Constructor-based DI w XML: Definicje beanów z zależnościami przekazywanymi przez konstruktor
+ - Metoda fabryczna
+	 - Możliwe jest wstrzykiwanie zależności poprzez metodę fabryczną, co pozwala na większą elastyczność w zarządaniu beanami w kodzie bez dostępu do kodu źródłowego

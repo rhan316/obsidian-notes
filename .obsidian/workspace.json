@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "43dca8dd4802f709",
+    "type": "split",
+    "children": [
+      {
+        "id": "2fcff4ebd072d352",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca10d75df0811a3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Brokery wiadomości/Co to jest RabbitMQ.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Co to jest RabbitMQ"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "513cadf30c0034a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "990bd5a20ce54f96",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7cbd8ca1a009332e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Przeglądarka plików"
+            }
+          },
+          {
+            "id": "c834be9847cea662",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Szukaj"
+            }
+          },
+          {
+            "id": "779d18bc99087a70",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 313.5
+  },
+  "right": {
+    "id": "5a4f08e1fce0d511",
+    "type": "split",
+    "children": [
+      {
+        "id": "9624d6a6b76b2a61",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4608d89883ebd905",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Java/Współbieżność/java.util.concurrent/Callable i Future.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Łącza zwrotne do Callable i Future"
+            }
+          },
+          {
+            "id": "4d9b620040a091f2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SQL Postresql/Funkcje daty i czasu/DATE_PART.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from DATE_PART"
+            }
+          },
+          {
+            "id": "c6a3d85819e08f24",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fbe6a86482502a60",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SQL Postresql/Funkcje daty i czasu/DATE_PART.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of DATE_PART"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Otwórz okno szybkiej zmiany pliku": false,
+      "graph:Otwórz graf": false,
+      "canvas:Stwórz nowe płótno": false,
+      "daily-notes:Otwórz dzisiejszą notatkę": false,
+      "templates:Wstaw szablon": false,
+      "command-palette:Otwórz paletę poleceń": false
+    }
+  },
+  "active": "7cbd8ca1a009332e",
+  "lastOpenFiles": [
+    "Brokery wiadomości",
+    "Brokery wiadomości/Co to jest RabbitMQ.md",
+    "RabbitMQ",
+    "Java/Sealed Classes.md",
+    "Docker/Co to jest Docker.md",
+    "Docker",
+    "Spring Boot/Ciasteczka.md",
+    "Spring Boot/Sesja HTTP.md",
+    "NoSQL/Redis/Podstawy Redis.md",
+    "NoSQL/Redis/Struktury danych.md",
+    "Spring Boot/Cache.md",
+    "Spring Boot/DispatcherServlet.md",
+    "Spring Boot/DTO.md",
+    "Java/NIO/Interfejs Path.md",
+    "Java/NIO/Kanały.md",
+    "Java/IO/File.md",
+    "Java/Refleksja/Stała klasowa Class.md",
+    "Java/Refleksja/Podstawy refleksji.md",
+    "Java/Interfejsy/Stałe i metody statyczne w interfejsach.md",
+    "Java/Interfejsy/Metody domyślne.md",
+    "Java/Interfejsy/Interfejs VS Klasa abstrakcyjna.md",
+    "Java/Interfejsy/Dostęp do implementacji poprzez interfejs.md",
+    "Java/Proces przetwarzania kodu Javy do działającej aplikacji.md",
+    "Java/Podstawy adnotacji.md",
+    "Java/Asynchroniczność, Wielowątkowość, Współbieżność.md",
+    "Java/Adnotacje.md",
+    "Java/Operatory logiczne/Przesunięcia bitowe/BitMapa VS Mapa.md",
+    "Java/Operatory logiczne/Przesunięcia bitowe/Operatory bitowe.md",
+    "Redis",
+    "Spring Boot/IoC",
+    "Działanie internetu",
+    "Spring Boot/Tomcat/Tomcat a DispatcherServlet.canvas",
+    "Spring Boot/Tomcat",
+    "Spring Boot/SpEL",
+    "Spring Boot",
+    "JUnit",
+    "Spring/WebClient",
+    "Obrazy/Pasted image 20241218222426.png",
+    "Obrazy/Pasted image 20241026094726.png",
+    "Untitled.canvas",
+    "Obrazy/Pasted image 20241024092512.png",
+    "Obrazy/Pasted image 20241024090727.png",
+    "Obrazy/Pasted image 20241021160309.png",
+    "Obrazy/Pasted image 20241021155430.png",
+    "Obrazy/Pasted image 20241021154109.png",
+    "Obrazy/Pasted image 20241021153927.png",
+    "Obrazy/Pasted image 20241021153447.png",
+    "SQL Postresql/Funkcje znakowe/Pasted image 20241021153258.png"
+  ]
+}
