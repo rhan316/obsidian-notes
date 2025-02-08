@@ -1,0 +1,1 @@
+Wzorzec projektowy **Prototype** to jeden z wzorców kreacyjnych

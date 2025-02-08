@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ecbf00c19c1c5a25",
+        "id": "b78a1612c1ef6a4a",
         "type": "tabs",
         "children": [
           {
-            "id": "00a409ed54f542b3",
+            "id": "f46d2e970e7e264b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorytmy/Podstawy.md",
-                "mode": "preview",
+                "file": "Wzorce projektowe/Prototyp.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Podstawy"
+              "title": "Prototyp"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 313.5,
+    "collapsed": true
   },
   "right": {
     "id": "5a4f08e1fce0d511",
@@ -164,8 +165,9 @@
       "templates:Wstaw szablon": false
     }
   },
-  "active": "00a409ed54f542b3",
+  "active": "f46d2e970e7e264b",
   "lastOpenFiles": [
+    "Wzorce projektowe/Prototyp.md",
     "Algorytmy/Podstawy.md",
     "Spring/AOP.md",
     "Java/NIO/Absolute Path VS Relative Path.md",
@@ -193,7 +195,6 @@
     "Java - Podejście funkcyjne/Wprowadzenie do programowania funkcyjnego/Podsumowanie.md",
     "Java - Podejście funkcyjne/Wprowadzenie do programowania funkcyjnego/Rachunek lambda.md",
     "Java - Podejście funkcyjne/Wprowadzenie do programowania funkcyjnego/Funkcje czyste i nieczyste.md",
-    "Java - Podejście funkcyjne/Wprowadzenie do programowania funkcyjnego/Ewaluacja leniwa.md",
     "PHP",
     "Spring Boot/Tomcat/Tomcat a DispatcherServlet.canvas",
     "Java/Data i czas",
