@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2fcff4ebd072d352",
+        "id": "ecbf00c19c1c5a25",
         "type": "tabs",
         "children": [
           {
-            "id": "ca10d75df0811a3a",
+            "id": "00a409ed54f542b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Brokery wiadomości/Co to jest RabbitMQ.md",
+                "file": "Algorytmy/Podstawy.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Co to jest RabbitMQ"
+              "title": "Podstawy"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Przeglądarka plików"
@@ -154,53 +155,55 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Otwórz okno szybkiej zmiany pliku": false,
+      "switcher:Otwórz okno szybkiego wyboru": false,
+      "canvas:Stwórz nową tablicę": false,
+      "daily-notes:Otwórz codzienną notatkę": false,
+      "command-palette:Otwórz listę poleceń": false,
+      "obsidian-git:Open Git source control": false,
       "graph:Otwórz graf": false,
-      "canvas:Stwórz nowe płótno": false,
-      "daily-notes:Otwórz dzisiejszą notatkę": false,
-      "templates:Wstaw szablon": false,
-      "command-palette:Otwórz paletę poleceń": false
+      "templates:Wstaw szablon": false
     }
   },
-  "active": "7cbd8ca1a009332e",
+  "active": "00a409ed54f542b3",
   "lastOpenFiles": [
-    "Brokery wiadomości",
-    "Brokery wiadomości/Co to jest RabbitMQ.md",
-    "RabbitMQ",
-    "Java/Sealed Classes.md",
-    "Docker/Co to jest Docker.md",
-    "Docker",
-    "Spring Boot/Ciasteczka.md",
-    "Spring Boot/Sesja HTTP.md",
-    "NoSQL/Redis/Podstawy Redis.md",
-    "NoSQL/Redis/Struktury danych.md",
-    "Spring Boot/Cache.md",
-    "Spring Boot/DispatcherServlet.md",
-    "Spring Boot/DTO.md",
+    "Algorytmy/Podstawy.md",
+    "Spring/AOP.md",
+    "Java/NIO/Absolute Path VS Relative Path.md",
+    "Symfony/Podstawy.md",
+    "Symfony",
+    "PHP/Funkcje.md",
+    "PHP/Interfejsy.md",
+    "PHP/Metody abstrakcyjne.md",
+    "PHP/Operatory przypisania.md",
+    "PHP/htmlspecialchars.md",
+    "PHP/Sesje.md",
+    "PHP/SUPERGLOBALNE.md",
+    "PHP/Ciasteczka.md",
+    "PHP/Data i czas.md",
+    "PHP/include require.md",
+    "PHP/Pliki.md",
+    "PHP/Operacje na ciągach.md",
+    "PHP/PODSTAWY.md",
+    "2025-02-01.md",
+    "Bez nazwy.canvas",
+    "Java/Współbieżność/Podstawy podstaw.md",
+    "Java/NIO/FTP.md",
     "Java/NIO/Interfejs Path.md",
-    "Java/NIO/Kanały.md",
-    "Java/IO/File.md",
-    "Java/Refleksja/Stała klasowa Class.md",
-    "Java/Refleksja/Podstawy refleksji.md",
-    "Java/Interfejsy/Stałe i metody statyczne w interfejsach.md",
-    "Java/Interfejsy/Metody domyślne.md",
-    "Java/Interfejsy/Interfejs VS Klasa abstrakcyjna.md",
-    "Java/Interfejsy/Dostęp do implementacji poprzez interfejs.md",
-    "Java/Proces przetwarzania kodu Javy do działającej aplikacji.md",
-    "Java/Podstawy adnotacji.md",
-    "Java/Asynchroniczność, Wielowątkowość, Współbieżność.md",
-    "Java/Adnotacje.md",
-    "Java/Operatory logiczne/Przesunięcia bitowe/BitMapa VS Mapa.md",
-    "Java/Operatory logiczne/Przesunięcia bitowe/Operatory bitowe.md",
+    "Java - Podejście funkcyjne/Wprowadzenie do programowania funkcyjnego/Typ pierwszoklasowy i funkcja wyższego rzędu.md",
+    "Java - Podejście funkcyjne/Wprowadzenie do programowania funkcyjnego/Podsumowanie.md",
+    "Java - Podejście funkcyjne/Wprowadzenie do programowania funkcyjnego/Rachunek lambda.md",
+    "Java - Podejście funkcyjne/Wprowadzenie do programowania funkcyjnego/Funkcje czyste i nieczyste.md",
+    "Java - Podejście funkcyjne/Wprowadzenie do programowania funkcyjnego/Ewaluacja leniwa.md",
+    "PHP",
+    "Spring Boot/Tomcat/Tomcat a DispatcherServlet.canvas",
+    "Java/Data i czas",
+    "Spring Boot/Spring JPA",
+    "Testowanie",
+    "Brokery wiadomości",
+    "RabbitMQ",
+    "Docker",
     "Redis",
     "Spring Boot/IoC",
-    "Działanie internetu",
-    "Spring Boot/Tomcat/Tomcat a DispatcherServlet.canvas",
-    "Spring Boot/Tomcat",
-    "Spring Boot/SpEL",
-    "Spring Boot",
-    "JUnit",
-    "Spring/WebClient",
     "Obrazy/Pasted image 20241218222426.png",
     "Obrazy/Pasted image 20241026094726.png",
     "Untitled.canvas",

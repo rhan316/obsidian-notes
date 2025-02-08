@@ -7,7 +7,7 @@ W świecie technologii Docker robi coś podobnego:
 - Kontener działa tak samo niezależnie od tego, czy jest uruchomiony na Twoim laptopie, serwerze w chmurze czy w centrum danych.
 
 ---
-***Kluczowe pojęcia w Dockerze**
+***Kluczowe pojęcia w Dockerze***
 
 1. ~={9}**Obraz (Image)**:=~ Obraz Docker to jak "przepis" na kontener. Zawiera instrukcję, jak skonfigurować środowisko i uruchomić aplikację. Przykładami obrazów mogą być: System operacyjny Ubuntu z Pythonem albo Serwer Apache z preinstalowaną aplikacją.
 2. ~={9}**Kontener (Container)** =~- Kontener to uruchomiona instancja obrazu. Możesz traktować go jak "żywy" proces, który działa zgodnie z instrukcjami zawartymi w obrazie. Kontenery są: ~={blue}**Izolowane=~ (nie wpływają na inne aplikacje na serwerze) i~={blue} Lekkie=~ (działają szybko, ponieważ współdzielą zasoby z systemem gospodarza)**.

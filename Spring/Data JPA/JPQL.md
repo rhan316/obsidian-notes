@@ -1,6 +1,6 @@
 *JPQL (Java Persistence Query Language* to język zapytań używany w **Java Persistence API (JPA)** do pracy z encjami zamiast bezpośrednio z tabelami w bazie danych.
 
-JPQL jest podobny do SQL, ale operuje na klasach encji i ich polach, a nie na tabelach i kolumnach bazy danych. **Zapytania są bardziej abstrakcyjne i niezależne od *konkretnej* bazy danych**.
+JPQL jest podobny do SQL, ale operuje na klasach encji i ich polach, a nie na tabelach i kolumnach bazy danych.~={cyan} **Zapytania są bardziej abstrakcyjne i niezależne od *konkretnej* bazy danych**=~.
 
 *Jak zbudowane są zapytania w JPQL?*
 - Klasy i pola zamiast tabel i kolumn. Zamiast operować na tabelach bazy danych, JPQL operuje na klasach encji i ich polach.
@@ -14,3 +14,14 @@ W JPQL możesz używać **parametrów nazwanych np. :lastName** lub **indeksowan
 **Zalety JPQL**
 1. *Abstrakcja od SQL* - nie musisz znać szczegółów konkretnej bazy danych, tylko operujesz na encjach.
 2. *Spójność z JPA* - dzięki JPA można łatwo zarządzać relacjami między encjami (np. @OneToMany, @ManyToMany)
+
+```
+public interface UserRepository extends JpaRepository<User, Long> {
+
+	@Query("SELECT u FROM User u WHERE u.name = :name)
+	List<User> findUserByName(String name);
+}
+```
+`SELECT u FROM User u` --> Pobiera wszystkie obiekty User (alians u).
+`WHERE u.name = :name` --> Warunek, który filtruje wyniki na podstawie pola `name`.
+`:name` --> To jest parametr nazwany, który zostanie podstawiony w trakcie wykonywania metody.

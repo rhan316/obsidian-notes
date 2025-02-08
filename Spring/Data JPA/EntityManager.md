@@ -1,4 +1,4 @@
-EntityManager w Spring Framework (i w kontekście JPA - Java Persistence API) to kluczowy interfejs służący do zarządzania encjami w kontekście bazy danych. Jest odpowiedzialny za interakcję między aplikacją a bazą danych, umożliwiając wykonywanie operacji takich jak:
+~={12}EntityManager=~ w Spring Framework (i w kontekście JPA - Java Persistence API) to kluczowy interfejs służący do zarządzania encjami w kontekście bazy danych. Jest odpowiedzialny za interakcję między aplikacją a bazą danych, umożliwiając wykonywanie operacji takich jak:
 1. **Tworzenie** - zapisywanie nowych obiektów w bazie danych.
 2. **Odczyt** - pobieranie danych z bazy danych w postaci obiektów.
 3. **Aktualizacja** - modyfikowanie istniejących danych.

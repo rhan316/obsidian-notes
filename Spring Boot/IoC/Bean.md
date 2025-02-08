@@ -2,7 +2,7 @@ W Spring Boot Bean to obiekt, który jest zarządzany przez kontener IoC.
 Beany reprezentują podstawowe elementy logiki aplikacji i są automatycznie tworzone, konfigurowane i zarządzane przez Spring na podstawie definicji w kodzie.
 
 ---
-**Bean** to komponent, który został zarejestrowany w kontenerze Spring, może być automatycznie wstrzykiwany i używany w innych miejscach aplikacji.
+~={12}**Bean**=~ to komponent, który został zarejestrowany w kontenerze Spring, może być automatycznie wstrzykiwany i używany w innych miejscach aplikacji.
 **Zarządzanie przez Spring** - Spring decyduje, kiedy bean jest tworzony, inicjowany i niszczony, na podstawie cyklu życia beanów.
 
 ---

@@ -1,4 +1,4 @@
-Native Query w Spring Data JPA to możliwość wykonywania bezpośrednich zapytań SQL w ramach aplikacji korzystającej z JPA (Java Persistence API). Standardowo, Spring Data JPA wspiera korzystanie z JPQL (Java Persistence Query Language), który jest językiem zapytań specyficznym dla JPA i operuje na encjach zamiast na tabelach baz danych. Jednakże, w niektórych sytuacjach bardziej efektywne lub konieczne może być skorzystanie bezpośrednio z SQL. Wtedy możemy użyć Native Query.
+~={11}Native Query=~ w Spring Data JPA to możliwość wykonywania bezpośrednich zapytań SQL w ramach aplikacji korzystającej z JPA (Java Persistence API). Standardowo, Spring Data JPA wspiera korzystanie z JPQL (Java Persistence Query Language), który jest językiem zapytań~={11} specyficznym dla JPA ~={11}=~i operuje na ~={11}encjach zamiast na tabelach baz danych=~. Jednakże, w niektórych sytuacjach bardziej efektywne lub konieczne może być skorzystanie bezpośrednio z SQL. Wtedy możemy użyć Native Query.
 
 **Kiedy używać Native Query?**
 1. Potrzebujesz bardzo specyficznego zapytania, które trudno wyrazić w JPQL (Java Persistence Query Language)
@@ -27,7 +27,7 @@ W momencie wywołania metody *findByLastNameNative()*, Spring Data JPA wykona za
 | Elastyczność              | Trudniejsze do utrzymania   |
 **Adnotacja @Modifying**
 
-*Jeśli chcesz wykonać operację aktualizacji lub usunięcia za pomocą Native Query, musisz użyć adnotacji @Modifying*
+~={11}*Jeśli chcesz wykonać operację aktualizacji lub usunięcia za pomocą Native Query, musisz użyć adnotacji @Modifying*=~
 
 ```
 @Transactional

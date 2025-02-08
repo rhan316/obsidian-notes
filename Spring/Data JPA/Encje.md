@@ -17,3 +17,11 @@
 - Encja to obiekt Java, który jest odwzorowaniem (mapowaniem) na tabelę w bazie danych.
 - Encja reprezentuje rekordy w tabeli - każda instancja encji odpowiada jednemu wierszowi w tabeli
 - Encje są kluczowym elementem w **ORM (Object-Relational Mapping)**, co umożliwia pracę z bazą danych jako obiektami w Javie
+
+**Co to są `@PrePersist` i `@PreUpdate`?** 
+
+Te adnotacje są częścią JPA i oznaczają metody, które powinny zostać automatycznie wykonane przez JPA w określonych momentach.
+`@PrePersist` - Metoda z tą adnotacją zostanie wywołana tuż przed zapisaniem nowej encji w bazie danych.
+`@PreUpdate` - Metoda z tą adnotacją zostanie wywołana przed aktualizacją istniejącej encji w bazie danych.
+
+`@PrePersist` działa tylko przy pierwszym zapisie, natomiast `@PreUpdate` działa przy każdej aktualizacji encji.

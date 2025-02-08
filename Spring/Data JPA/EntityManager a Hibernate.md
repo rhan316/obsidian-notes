@@ -1,4 +1,4 @@
-`EntityManager` w kontekście Hibernate jest jednym z kluczowych elementów, ponieważ Hibernate jest najczęściej używaną implementacją *JPA (Java Persistence API)*, a `EntityManager` to interfejs JPA do zarządzania encjami i komunikacji z bazą danych.
+`EntityManager` w kontekście Hibernate jest jednym z kluczowych elementów, ponieważ ~={12}Hibernate jest najczęściej używaną implementacją *JPA=~ (Java Persistence API)*, a `EntityManager` to interfejs JPA do zarządzania encjami i komunikacji z bazą danych.
 
 1. **Hibernate jako implementacja JPA**
 	- JPA to specyfikacja, która definiuje standardowy sposób zarządzania obiektami w relacyjnych bazach danych

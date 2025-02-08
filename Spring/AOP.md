@@ -1,5 +1,14 @@
 Aspect Oriented Programming (AOP), czyli programowanie zorientowane na aspekty, jest paradygmatem programowania, który pomaga oddzielić logię krzyżową od logiki aplikacji, dzięki czemu kod jest bardziej modularny i łatwiejszy do zarządzania.
 
+AOP pozwala na oddzielenie logiki aplikacji od tzw. **obserwowalnych zachowań (concerns)** , takich jak:
+- Logowanie
+- Obsługa wyjątków
+- Bezpieczeństwo
+- Transakcje
+- Caching
+
+Dzięki AOP można dodać dodatkowe funkcjonalności bez modyfikowania kodu głównej aplikacji.
+
 **Logika krzyżowa (cross-cutting concerns)** to rodzaj funkcjonalności w oprogramowaniu, która nie należy do głównej logiki biznesowej, ale jest konieczna w wielu miejscach systemu. Jest to kod, który "przecina" różne moduły aplikacji, ponieważ jest powtarzalny i dotyczy wielu funkcjonalności w systemie.
 
 
