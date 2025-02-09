@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Java/GraalVM.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5,
-    "collapsed": true
+    "width": 313.5
   },
   "right": {
     "id": "5a4f08e1fce0d511",
