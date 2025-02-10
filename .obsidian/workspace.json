@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Struktury Danych/Call Stack.md",
+                "file": "Struktury Danych/Drzewa binarne/Usuwanie węzłów w BST.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Call Stack"
+              "title": "Usuwanie węzłów w BST"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 313.5,
+    "collapsed": true
   },
   "right": {
     "id": "5a4f08e1fce0d511",
@@ -166,8 +167,9 @@
   },
   "active": "26f5af631cf5387c",
   "lastOpenFiles": [
-    "Struktury Danych/Drzewa binarne/Dodanie węzła do drzewa binarnego.md",
     "Struktury Danych/Call Stack.md",
+    "Struktury Danych/Drzewa binarne/Usuwanie węzłów w BST.md",
+    "Struktury Danych/Drzewa binarne/Dodanie węzła do drzewa binarnego.md",
     "Struktury Danych/Rekurencja.md",
     "Java/Comparable.md",
     "Struktury Danych/Drzewa binarne",
@@ -194,7 +196,6 @@
     "PHP/Pliki.md",
     "PHP/Operacje na ciągach.md",
     "PHP/PODSTAWY.md",
-    "2025-02-01.md",
     "Bez nazwy.canvas",
     "PHP",
     "Spring Boot/Tomcat/Tomcat a DispatcherServlet.canvas",
