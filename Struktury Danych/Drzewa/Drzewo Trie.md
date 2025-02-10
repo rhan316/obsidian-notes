@@ -34,5 +34,20 @@ class Trie {
 		node.isEndOfWord = true;
 	}
 }
+```
 
+#### Wyszukiwanie słowa w Trie
+
+```java
+
+public boolean search(String word) {
+	TrieNode node = root;
+
+	for (char c : word.toCharArray()) {
+		node = node.children.get(c);
+		if (node == null) return false;
+	}
+
+	return node.isEndOfWord;
+}
 ```
