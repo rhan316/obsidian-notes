@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/GraalVM.md",
+                "file": "Java/Comparable.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GraalVM"
+              "title": "Comparable"
             }
           }
         ]
@@ -166,8 +166,9 @@
   },
   "active": "edc0692ff33068f6",
   "lastOpenFiles": [
-    "Java/hashCode i equals.md",
+    "Java/Encoding.md",
     "Java/GraalVM.md",
+    "Java/hashCode i equals.md",
     "Java/Bez nazwy",
     "Wzorce projektowe/Prototyp.md",
     "Algorytmy/Podstawy.md",
@@ -194,7 +195,6 @@
     "Java/NIO/FTP.md",
     "Java/NIO/Interfejs Path.md",
     "Java - Podejście funkcyjne/Wprowadzenie do programowania funkcyjnego/Typ pierwszoklasowy i funkcja wyższego rzędu.md",
-    "Java - Podejście funkcyjne/Wprowadzenie do programowania funkcyjnego/Podsumowanie.md",
     "PHP",
     "Spring Boot/Tomcat/Tomcat a DispatcherServlet.canvas",
     "Java/Data i czas",
