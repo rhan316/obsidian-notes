@@ -52,3 +52,35 @@ Drzewo po usunięciu 50
 ```
 
 ---
+```java
+private Node<T> deleteRec(Node<T> root, T value) {
+	if (root == null) return null;
+
+	if (comparator.compare(value, root.data)) < 0) {
+		root.left = deleteRec(root.left, value);
+	} else if (comparator.compare(value, root.data > 0)) {
+		root.right = deleteRec(root.right, value);
+	} else {
+
+		// Przypadek: Węzeł bez dzieci
+		if (root.left == null && root.right == null) {
+			return null;
+		}
+
+		// Przypadek: Węzeł z jednym dzieckiem
+		if (root.left == null) {
+			return root.right;
+		}
+
+		if (root.right == null) {
+			return root.left;
+		}
+
+		// Przypadek: Węzeł z dwójką dzieci
+		root.data = minValue(root.right); // Znajdujemy najmniejszy element w prawym poddrzewie
+		root.right = deleteRec(root.right, root.data); // Usuwamy ten element
+	}
+
+	return root;
+}
+```
