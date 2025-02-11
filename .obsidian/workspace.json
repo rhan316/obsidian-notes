@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "604e07af6f49422b",
+        "id": "eed59b8d5e8992c2",
         "type": "tabs",
         "children": [
           {
-            "id": "26f5af631cf5387c",
+            "id": "a2df81ddb1cfb9be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Struktury Danych/Drzewa/Drzewo Trie.md",
+                "file": "Java/Abstakcja/Ukrywanie implementacji przez abstrakcję.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Drzewo Trie"
+              "title": "Ukrywanie implementacji przez abstrakcję"
             }
           }
         ]
@@ -165,10 +165,13 @@
       "templates:Wstaw szablon": false
     }
   },
-  "active": "26f5af631cf5387c",
+  "active": "a2df81ddb1cfb9be",
   "lastOpenFiles": [
-    "Struktury Danych/Drzewa/Drzewa binarne/Usuwanie węzłów w BST.md",
+    "Java/Abstakcja/Abstrakcja danych.md",
+    "Java/Abstakcja/Ukrywanie implementacji przez abstrakcję.md",
+    "Java/Abstakcja",
     "Struktury Danych/Drzewa/Drzewo Trie.md",
+    "Struktury Danych/Drzewa/Drzewa binarne/Usuwanie węzłów w BST.md",
     "Struktury Danych/Drzewa",
     "Struktury Danych/Call Stack.md",
     "Struktury Danych/Drzewa/Drzewa binarne/Dodanie węzła do drzewa binarnego.md",
@@ -178,7 +181,6 @@
     "Java/Encoding.md",
     "Java/GraalVM.md",
     "Java/hashCode i equals.md",
-    "Java/Bez nazwy",
     "Wzorce projektowe/Prototyp.md",
     "Algorytmy/Podstawy.md",
     "Spring/AOP.md",
@@ -195,8 +197,6 @@
     "PHP/Ciasteczka.md",
     "PHP/Data i czas.md",
     "PHP/include require.md",
-    "PHP/Pliki.md",
-    "PHP/Operacje na ciągach.md",
     "Bez nazwy.canvas",
     "PHP",
     "Spring Boot/Tomcat/Tomcat a DispatcherServlet.canvas",
