@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Abstakcja/Ukrywanie implementacji przez abstrakcję.md",
-                "mode": "source",
+                "file": "Java/Data i czas/java.time.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ukrywanie implementacji przez abstrakcję"
+              "title": "java.time"
             }
           }
         ]
@@ -167,8 +167,8 @@
   },
   "active": "a2df81ddb1cfb9be",
   "lastOpenFiles": [
-    "Java/Abstakcja/Abstrakcja danych.md",
     "Java/Abstakcja/Ukrywanie implementacji przez abstrakcję.md",
+    "Java/Abstakcja/Abstrakcja danych.md",
     "Java/Abstakcja",
     "Struktury Danych/Drzewa/Drzewo Trie.md",
     "Struktury Danych/Drzewa/Drzewa binarne/Usuwanie węzłów w BST.md",
