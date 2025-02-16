@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Struktury Danych/Drzewa/Drzewa czerwono-czarne.md",
+                "file": "Struktury Danych/Drzewa/B-drzewo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Drzewa czerwono-czarne"
+              "title": "B-drzewo"
             }
           }
         ]
@@ -168,6 +168,7 @@
   "active": "f815c13c385c21bd",
   "lastOpenFiles": [
     "Struktury Danych/Drzewa/Drzewa czerwono-czarne.md",
+    "Struktury Danych/Drzewa/B-drzewo.md",
     "Wzorce projektowe/Adapter.md",
     "Java/Data i czas/java.time.md",
     "Java/Abstakcja/Ukrywanie implementacji przez abstrakcję.md",
@@ -196,7 +197,6 @@
     "PHP/Operatory przypisania.md",
     "PHP/htmlspecialchars.md",
     "PHP/Sesje.md",
-    "PHP/SUPERGLOBALNE.md",
     "Bez nazwy.canvas",
     "PHP",
     "Spring Boot/Tomcat/Tomcat a DispatcherServlet.canvas",

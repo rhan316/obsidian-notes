@@ -53,5 +53,13 @@ Node rotateLeft(Node x) {
 
 	return y;
 }
-
 ```
+
+#### Usuwanie węzłów
+
+Usuwanie węzła przypomina zamykanie skrzyżowania - musimy przeorganizować ruch.
+1. Usuwamy węzeł jak w BST.
+2. Jeśli usunięty węzeł był czarny, trzeba naprawić drzewo. (Usunięcie czarnego węzła zmienia liczbę czarnych węzłów w ścieżce).
+3. Naprawiamy drzewo:
+	- Jeśli usunięty węzeł miał czerwonego potomka -> przekolorowanie.
+	- Jeśli nie, "pożyczamy czarny kolor" od rodzeństwa poprzez dodatkowe operacje.
