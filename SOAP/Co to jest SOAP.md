@@ -12,3 +12,5 @@ Kluczowe elementy SOAP:
 2. **SOAP Header**: Nagłówek może zawierać dodatkowe informacje, takie jak dane uwierzytelniające.
 3. **SOAP Body**: Właściwa treść wiadomości (dane, które chcemy przekazać).
 4. **SOAP Fault**: Służy do raportowania błędów w komunikacji
+
+TODO (@2025-02-20 06:00)
