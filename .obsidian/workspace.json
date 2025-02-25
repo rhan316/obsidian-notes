@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "02b7cf930e0017cd",
+        "id": "0c68720f27f406ba",
         "type": "tabs",
         "children": [
           {
-            "id": "e488c5c420d4b621",
+            "id": "dbe2c77b6d9eb252",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Operatory logiczne/Przesunięcia bitowe/BitMapa VS Mapa.md",
+                "file": "Działanie internetu/DNS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BitMapa VS Mapa"
+              "title": "DNS"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 313.5,
+    "collapsed": true
   },
   "right": {
     "id": "5a4f08e1fce0d511",
@@ -174,12 +175,14 @@
       "templates:Wstaw szablon": false
     }
   },
-  "active": "e488c5c420d4b621",
+  "active": "dbe2c77b6d9eb252",
   "lastOpenFiles": [
+    "Działanie internetu/Bez nazwy.md",
+    "Działanie internetu/DNS.md",
+    "Java/Operatory logiczne/Przesunięcia bitowe/BitMapa VS Mapa.md",
     "Java/Operatory logiczne/Przesunięcia bitowe/Praktyka.md",
     "Java/Operatory logiczne/Przesunięcia bitowe/Operatory bitowe.md",
     "Java/Operatory logiczne/Przesunięcia bitowe/Podstawy.md",
-    "Java/Operatory logiczne/Przesunięcia bitowe/BitMapa VS Mapa.md",
     "Struktury Danych/Dlaczego entrySet Mapy pozwala na iterację.md",
     "Struktury Danych/Call Stack.md",
     "Struktury Danych/Bufory.md",
@@ -203,8 +206,6 @@
     "Struktury Danych/Rekurencja.md",
     "Java/Comparable.md",
     "Struktury Danych/Drzewa/Drzewa binarne",
-    "Java/Encoding.md",
-    "Java/GraalVM.md",
     "Symfony",
     "Bez nazwy.canvas",
     "PHP",
