@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/JWT.md",
+                "file": "API/Cache.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JWT"
+              "title": "Cache"
             }
           }
         ]
@@ -177,9 +177,11 @@
   },
   "active": "cf1e47d62330ac94",
   "lastOpenFiles": [
+    "API/Cookie-Based Authentication.md",
+    "API/Cache.md",
+    "API/JWT.md",
     "API/OIDC.md",
     "API/OAuth.md",
-    "API/JWT.md",
     "API",
     "Działanie internetu/Przeglądanie sieci.md",
     "Działanie internetu/SSL TLS.md",
@@ -202,9 +204,7 @@
     "Wzorce projektowe/Adapter.md",
     "Java/Data i czas/java.time.md",
     "Java/Abstakcja/Ukrywanie implementacji przez abstrakcję.md",
-    "Java/Abstakcja/Abstrakcja danych.md",
     "Java/Abstakcja",
-    "Struktury Danych/Drzewa/Drzewo Trie.md",
     "Struktury Danych/Drzewa",
     "Struktury Danych/Drzewa/Drzewa binarne",
     "Symfony",
