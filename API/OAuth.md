@@ -13,7 +13,7 @@ To właśnie robi OAuth!
 4. Aplikacja może używać tego tokena, ale nie zna  twojego hasła!
 
 ***Co to jest OAuth 2.0?***
-OAuth 2.0 to protokół autoryzacji, który pozwala aplikacjom uzyskać dostęp do zasobów użytkownika bez udostępniania jego hasła. Zamiast tego aplikacja dostaje token dostępu `access_token`, który pozwala na ograniczony dostęp do danych użytkownika.
+~={magenta}OAuth 2.0 to protokół autoryzacji, który pozwala aplikacjom uzyskać dostęp do zasobów użytkownika bez udostępniania jego hasła. Zamiast tego aplikacja dostaje token dostępu `access_token`, który pozwala na ograniczony dostęp do danych użytkownika.=~
 
 ***Główne cechy OAuth 2.0***
 - Bezpieczeństwo - Brak potrzeby podawania hasła aplikacji trzeciej.
@@ -23,7 +23,7 @@ OAuth 2.0 to protokół autoryzacji, który pozwala aplikacjom uzyskać dostęp 
 
 ***Role w OAuth 2.0***
 1. **Resource Owner (Właściciel zasobu)** - np. użytkownik, który udziela dostępu do swojego konta.
-2. **Client** - aplikacja, która chcesz uzyskać dostęp do zasobów użytkownika.
+2. **Client** - aplikacja, którą chcesz uzyskać dostęp do zasobów użytkownika.
 3. **Authorization Server** - serwer, który uwierzytelnia użytkownika i akceptuje tokeny dostępu.
 4. **Resource Server** - API, które przechowuje zasoby użytkownika i akceptuje `access_token`.
 
