@@ -48,3 +48,35 @@ SELECT u.*, o.* FROM users u
 LEFT JOIN orders o ON u.id = o.user_id;
 ```
 Wszystko jest pobierane jednym zapytaniem, eliminując problem N+1!
+
+**Rozwiązanie 2: `@EntityGraph`**
+Możemy użyć *EntityGraph*, aby poinformować Hibernate, że chcemy pobrać użytkowników razem z zamówieniami.
+```java
+@EntityGraph(attributePaths = {"orders"})
+List<User> users = ... query ...
+	.setHint("jakarta.persistence.fetchgraph", entityGraph)
+	.getReusultList();
+```
+To pozwala uniknąć problemu N+1 bez modyfikowania zapytań.
+
+**Rozwiązanie 3: `@BatchSize` w Hibernate**
+Jeśli nie chcemy zmieniać zapytań, możemy powiedzieć Hibernate, aby pobierał zamówienia w paczkach:
+*Dodajemy `@BatchSize` do `orders` w encji `User`*
+```java
+@OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
+@BatchSize(size = 10) // pobiera zamówienia dla 10 użytkowników na raz
+private List<Order> orders;
+```
+Zamiast N osobnych zapytań, Hibernate wykona mniej zapytań, np.:
+```sql
+SELECT * FROM orders WHERE user_id IN (1,2,3,4,5,6,7,8,9,10);
+SELECT * FROM orders WHERE user_id IN (11,12,13,14,15,16,17,18,19,20);
+```
+Co drastycznie zwiększa wydajność.
+
+#### Podsumowanie
+Problem N+1 występuje, gdy Hibernate wykonuje osobne zapytania dla każdego obiektu w kolekcji.
+Rozwiązania:
+1. *JOIN FETCH* - użycie `JOIN FETCH` w JPQL.
+2. *@EntityGraph* - predefiniowane zapytania do ładowania relacji.
+3. *@BatchSize* - pobieranie danych w większych paczkach.

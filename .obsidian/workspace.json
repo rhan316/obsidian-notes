@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bazy danych - zaawansowane/Problem N+1.md",
+                "file": "Bazy danych - zaawansowane/Normalizacja Bazy Danych.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Problem N+1"
+              "title": "Normalizacja Bazy Danych"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5,
-    "collapsed": true
+    "width": 313.5
   },
   "right": {
     "id": "5a4f08e1fce0d511",
@@ -177,8 +176,9 @@
   },
   "active": "cf1e47d62330ac94",
   "lastOpenFiles": [
-    "API/OAuth.md",
     "Bazy danych - zaawansowane/Problem N+1.md",
+    "Bazy danych - zaawansowane/Normalizacja Bazy Danych.md",
+    "API/OAuth.md",
     "Bazy danych - zaawansowane",
     "API/Cache.md",
     "API/Bez nazwy.md",
@@ -204,7 +204,6 @@
     "2025-02-01.md",
     "Struktury Danych/Drzewa/B-drzewo.md",
     "Struktury Danych/Drzewa/Drzewa czerwono-czarne.md",
-    "Wzorce projektowe/Adapter.md",
     "Java/Abstakcja",
     "Struktury Danych/Drzewa",
     "Struktury Danych/Drzewa/Drzewa binarne",
