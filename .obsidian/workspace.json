@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cd8e4406d6f25f0b",
+        "id": "6d00bd3e9f84eafd",
         "type": "tabs",
         "children": [
           {
-            "id": "cf1e47d62330ac94",
+            "id": "5d98133459d2061a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bazy danych - zaawansowane/Normalizacja Bazy Danych.md",
+                "file": "NGINX/Wprowadzenie do NGINX.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Normalizacja Bazy Danych"
+              "title": "Wprowadzenie do NGINX"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 313.5,
+    "collapsed": true
   },
   "right": {
     "id": "5a4f08e1fce0d511",
@@ -174,18 +175,22 @@
       "templates:Wstaw szablon": false
     }
   },
-  "active": "cf1e47d62330ac94",
+  "active": "5d98133459d2061a",
   "lastOpenFiles": [
-    "Bazy danych - zaawansowane/Problem N+1.md",
-    "Bazy danych - zaawansowane/Normalizacja Bazy Danych.md",
-    "API/OAuth.md",
-    "Bazy danych - zaawansowane",
-    "API/Cache.md",
+    "ROADMAP/API/Cache.md",
+    "NGINX/Wprowadzenie do NGINX.md",
+    "NGINX",
+    "Inne",
+    "ROADMAP/Bazy danych - zaawansowane/Normalizacja Bazy Danych.md",
+    "ROADMAP",
+    "ROADMAP/Bazy danych - zaawansowane/Problem N+1.md",
+    "ROADMAP/API/OAuth.md",
+    "ROADMAP/Bazy danych - zaawansowane",
     "API/Bez nazwy.md",
-    "API/Cookie-Based Authentication.md",
-    "API/JWT.md",
-    "API/OIDC.md",
-    "API",
+    "ROADMAP/API/Cookie-Based Authentication.md",
+    "ROADMAP/API/JWT.md",
+    "ROADMAP/API/OIDC.md",
+    "ROADMAP/API",
     "Działanie internetu/Przeglądanie sieci.md",
     "Działanie internetu/SSL TLS.md",
     "Działanie internetu/DNS.md",
@@ -203,27 +208,23 @@
     "2025-02-19.md",
     "2025-02-01.md",
     "Struktury Danych/Drzewa/B-drzewo.md",
-    "Struktury Danych/Drzewa/Drzewa czerwono-czarne.md",
     "Java/Abstakcja",
     "Struktury Danych/Drzewa",
     "Struktury Danych/Drzewa/Drzewa binarne",
-    "Symfony",
+    "Inne/Symfony",
     "Bez nazwy.canvas",
-    "PHP",
+    "Inne/PHP",
     "Spring Boot/Tomcat/Tomcat a DispatcherServlet.canvas",
-    "Java/Data i czas",
-    "Spring Boot/Spring JPA",
-    "Testowanie",
-    "Obrazy/Pasted image 20241218222426.png",
-    "Obrazy/Pasted image 20241026094726.png",
+    "Inne/Obrazy/Pasted image 20241218222426.png",
+    "Inne/Obrazy/Pasted image 20241026094726.png",
     "Untitled.canvas",
-    "Obrazy/Pasted image 20241024092512.png",
-    "Obrazy/Pasted image 20241024090727.png",
-    "Obrazy/Pasted image 20241021160309.png",
-    "Obrazy/Pasted image 20241021155430.png",
-    "Obrazy/Pasted image 20241021154109.png",
-    "Obrazy/Pasted image 20241021153927.png",
-    "Obrazy/Pasted image 20241021153447.png",
+    "Inne/Obrazy/Pasted image 20241024092512.png",
+    "Inne/Obrazy/Pasted image 20241024090727.png",
+    "Inne/Obrazy/Pasted image 20241021160309.png",
+    "Inne/Obrazy/Pasted image 20241021155430.png",
+    "Inne/Obrazy/Pasted image 20241021154109.png",
+    "Inne/Obrazy/Pasted image 20241021153927.png",
+    "Inne/Obrazy/Pasted image 20241021153447.png",
     "SQL Postresql/Funkcje znakowe/Pasted image 20241021153258.png"
   ]
 }
