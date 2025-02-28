@@ -28,4 +28,56 @@ NGINX działa inaczej: używa modelu asynchronicznego i zdarzeniowego.
 - Jeden główny proces (Master Process) zarządza kilkoma procesami roboczymi (Worker Processes).
 - Każdy Worker Process obsługuje wiele żądań jednocześnie, zamiast tworzyć dla każdego nowe wątki.
 - Dzięki temu serwer zużywa mniej zasobów i może obsłużyć dziesiątki tysięcy jednoczesnych połączeń.
-- 
+
+### Podstawowa konfiguracja NGINX
+
+Plik konfiguracyjny NGINX (najczęściej `/etc/nginx/nginx.conf`) ma strukturę podobną do tej:
+```nginx
+worker_processes auto; # Liczba procesów roboczych (automatyczna detekcja CPU)
+
+events {
+	worker_connections 1024; # Ile połączeń może obsłużyć jedne worker
+}
+
+http {
+	server {
+		listen 80; # Nasłuchuje na porcie 80 (HTTP)
+		server_name example.com; # Nazwa domeny
+		root /var/www/html; # Katalog z plikami do serwowania
+		index index.html; # Domyślny plik startowy
+
+		location / {
+			try_files $uri $uri/ =404;
+		}
+	}
+}
+```
+
+**Reverse Proxy - Przekierowanie ruchu do backendu**
+Jeśli masz backend w Node.js, Django lub PHP, możesz skonfigurować NGINX jako reverse proxy:
+```nginx
+server {
+	listen 80;
+	server_name myapp.com;
+
+	location / {
+		proxy_pass http://127.0.0.1:3000; # Przekazuje żądania do backendu
+		proxy_set_header Host $host;
+		proxy_set_header X-Real-IP $remote_addr;
+		proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+	}
+}
+```
+
+### Porównanie NGINX z Apache
+
+| Cecha                      | NGINX                         | Apache                                 |
+| -------------------------- | ----------------------------- | -------------------------------------- |
+| Model usługi               | Asynchroniczny                | Wielowątkowy                           |
+| Obsługa statycznych plików | Szybsza                       | Wolniejsza                             |
+| Konfiguracja               | Trudniejsza na początku       | Bardziej intuicyjna dla początkujących |
+| Moduły                     | Mniej elastyczne, ale wydajne | Bardziej konfigurowalne                |
+| Skalowalność               | Świetna                       | Dobra, ale wymaga tuningu              |
+Apache nadal ma swoje zastosowania, zwłaszcza gdy korzystasz z `.htaccess`, ale jeśli zależy Ci na wydajności i skalowalności, NGINX jest lepszym wyborem.
+
+
