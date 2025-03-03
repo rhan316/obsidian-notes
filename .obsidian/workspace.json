@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7fea5fa2af5ad20c",
+        "id": "48daeb2e3b40f059",
         "type": "tabs",
         "children": [
           {
-            "id": "5a1e6c5ff1c62541",
+            "id": "e102e660aafa3844",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ROADMAP/Web Security/Rejestry w kryptografii.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Rejestry w kryptografii"
+              "title": "Nowa karta"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5,
-    "collapsed": true
+    "width": 313.5
   },
   "right": {
     "id": "5a4f08e1fce0d511",
@@ -175,10 +170,11 @@
       "templates:Wstaw szablon": false
     }
   },
-  "active": "5a1e6c5ff1c62541",
+  "active": "7cbd8ca1a009332e",
   "lastOpenFiles": [
-    "ROADMAP/Web Security/SHA.md",
+    "Zrozumienie programowania (book)",
     "ROADMAP/Web Security/Rejestry w kryptografii.md",
+    "ROADMAP/Web Security/SHA.md",
     "ROADMAP/Web Security/MD5.md",
     "ROADMAP/Bazy danych - zaawansowane/Indeksy.md",
     "ROADMAP/Web Security",
@@ -210,7 +206,6 @@
     "Działanie internetu/SSL TLS.md",
     "Działanie internetu/DNS.md",
     "Java/Operatory logiczne/Przesunięcia bitowe/BitMapa VS Mapa.md",
-    "Java/Operatory logiczne/Przesunięcia bitowe/Praktyka.md",
     "Java/Abstakcja",
     "Struktury Danych/Drzewa",
     "Bez nazwy.canvas",
