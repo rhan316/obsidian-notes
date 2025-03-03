@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1634ae0156f58e55",
+        "id": "cd48a6aaeedc3aa6",
         "type": "tabs",
         "children": [
           {
-            "id": "3a4579a6c6ad82d8",
+            "id": "3f0e6ad9f2615b3f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Techniki rozwiązywania problemów/Backtracking.md",
+                "file": "Techniki rozwiązywania problemów/Klasy złożoności obliczeniowej problemów.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Backtracking"
+              "title": "Klasy złożoności obliczeniowej problemów"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Backtracking",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -176,10 +175,11 @@
       "templates:Wstaw szablon": false
     }
   },
-  "active": "3a4579a6c6ad82d8",
+  "active": "3f0e6ad9f2615b3f",
   "lastOpenFiles": [
-    "ROADMAP/Elasticsearch/Wprowadzenie do Elasticsearch.md",
+    "Techniki rozwiązywania problemów/Klasy złożoności obliczeniowej problemów.md",
     "Techniki rozwiązywania problemów/Backtracking.md",
+    "ROADMAP/Elasticsearch/Wprowadzenie do Elasticsearch.md",
     "Techniki rozwiązywania problemów",
     "ROADMAP/Bez nazwy.md",
     "ROADMAP/Elasticsearch",
@@ -210,7 +210,6 @@
     "Java/Operatory logiczne/Przesunięcia bitowe/Operatory bitowe.md",
     "Java/Operatory logiczne/Przesunięcia bitowe/Podstawy.md",
     "Struktury Danych/Dlaczego entrySet Mapy pozwala na iterację.md",
-    "Struktury Danych/Call Stack.md",
     "Java/Abstakcja",
     "Struktury Danych/Drzewa",
     "Struktury Danych/Drzewa/Drzewa binarne",
