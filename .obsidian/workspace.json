@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Testowanie/Testowanie integracyjne.md",
+                "file": "ROADMAP/Web Security/Scrypt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Testowanie integracyjne"
+              "title": "Scrypt"
             }
           }
         ]
@@ -177,8 +177,9 @@
   },
   "active": "9c815e24a1bd1293",
   "lastOpenFiles": [
-    "Java/Operatory logiczne/Przesunięcia bitowe/Operatory bitowe.md",
     "Testowanie/Testowanie integracyjne.md",
+    "ROADMAP/Web Security/Scrypt.md",
+    "Java/Operatory logiczne/Przesunięcia bitowe/Operatory bitowe.md",
     "Java/Operatory logiczne/Przesunięcia bitowe/Praktyka.md",
     "Java/Operatory logiczne/Przesunięcia bitowe/Podstawy.md",
     "Struktury Danych/Drzewa/B-drzewo.md",
@@ -210,7 +211,6 @@
     "ROADMAP/Bazy danych - zaawansowane",
     "API/Bez nazwy.md",
     "ROADMAP/API/Cookie-Based Authentication.md",
-    "ROADMAP/API/JWT.md",
     "ROADMAP/API",
     "Java/Abstakcja",
     "Bez nazwy.canvas",
