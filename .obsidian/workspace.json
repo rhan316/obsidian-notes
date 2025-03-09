@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jak działa komputer/Jak działa procesor CPU.md",
+                "file": "ROADMAP/Web Security/API Security/CORS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Jak działa procesor CPU"
+              "title": "CORS"
             }
           }
         ]
@@ -177,10 +177,16 @@
   },
   "active": "74c169db1dd46a23",
   "lastOpenFiles": [
-    "Jak działa komputer/Rejestr CPU.md",
-    "Jak działa komputer/Jak działa procesor CPU.md",
-    "Jak działa komputer",
+    "ROADMAP/Web Security/Bcrypt.md",
+    "ROADMAP/Web Security/API Security/CORS.md",
+    "ROADMAP/Web Security/API Security",
     "ROADMAP/Web Security/Scrypt.md",
+    "ROADMAP/Web Security/SHA.md",
+    "ROADMAP/Web Security/Rejestry w kryptografii.md",
+    "ROADMAP/Web Security/MD5.md",
+    "Jak działa komputer/Jak działa procesor CPU.md",
+    "Jak działa komputer/Rejestr CPU.md",
+    "Jak działa komputer",
     "Testowanie/Testowanie integracyjne.md",
     "Java/Operatory logiczne/Przesunięcia bitowe/Operatory bitowe.md",
     "Java/Operatory logiczne/Przesunięcia bitowe/Praktyka.md",
@@ -188,9 +194,6 @@
     "Struktury Danych/Drzewa/B-drzewo.md",
     "Java/Cache dla typów.md",
     "Zrozumienie programowania (book)",
-    "ROADMAP/Web Security/Rejestry w kryptografii.md",
-    "ROADMAP/Web Security/SHA.md",
-    "ROADMAP/Web Security/MD5.md",
     "ROADMAP/Bazy danych - zaawansowane/Indeksy.md",
     "ROADMAP/Web Security",
     "Techniki rozwiązywania problemów/Klasy złożoności obliczeniowej problemów.md",
@@ -209,10 +212,7 @@
     "Inne",
     "ROADMAP/Bazy danych - zaawansowane/Normalizacja Bazy Danych.md",
     "ROADMAP",
-    "ROADMAP/Bazy danych - zaawansowane/Problem N+1.md",
-    "ROADMAP/API/OAuth.md",
     "ROADMAP/Bazy danych - zaawansowane",
-    "ROADMAP/API",
     "Bez nazwy.canvas",
     "Spring Boot/Tomcat/Tomcat a DispatcherServlet.canvas",
     "Inne/Obrazy/Pasted image 20241218222426.png",
