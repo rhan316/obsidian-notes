@@ -4,37 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "fe235a281044da40",
+        "id": "07c3284ae8bbce1a",
         "type": "tabs",
         "children": [
           {
-            "id": "c7eb06e4558ff60c",
+            "id": "4c2a9e4bf36615db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring Boot/IoC/Context.md",
-                "mode": "preview",
+                "file": "Jak działa komputer/CPU vs GPU.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Context"
-            }
-          },
-          {
-            "id": "73800a0b66b39474",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Informacje o wersji 1.10.3"
+              "title": "CPU vs GPU"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 313.5,
+    "collapsed": true
   },
   "right": {
     "id": "5a4f08e1fce0d511",
@@ -188,8 +176,17 @@
       "templates:Wstaw szablon": false
     }
   },
-  "active": "73800a0b66b39474",
+  "active": "4c2a9e4bf36615db",
   "lastOpenFiles": [
+    "Jak działa komputer/CPU vs GPU.md",
+    "Jak działa komputer/Piksel.md",
+    "Jak działa komputer/Little i Big Endian.md",
+    "Jak działa komputer/Liczby/Liczby zmiennoprzecinkowe.md",
+    "Jak działa komputer/Liczby/Liczby całkowite.md",
+    "Java/Adnotacje.md",
+    "Jak działa komputer/Liczby",
+    "NGINX/Wprowadzenie do NGINX.md",
+    "Spring Boot/IoC/Context.md",
     "SQL Postresql/Koncepty/MVCC.md",
     "SQL Postresql/Koncepty",
     "ROADMAP/NoSQL/InfluxDB.md",
@@ -215,17 +212,8 @@
     "Struktury Danych/Drzewa/B-drzewo.md",
     "Java/Cache dla typów.md",
     "Zrozumienie programowania (book)",
-    "ROADMAP/Bazy danych - zaawansowane/Indeksy.md",
     "ROADMAP/Web Security",
-    "Techniki rozwiązywania problemów/Klasy złożoności obliczeniowej problemów.md",
-    "Techniki rozwiązywania problemów/Backtracking.md",
-    "NoSQL/Elasticsearch/Wprowadzenie do Elasticsearch.md",
     "Techniki rozwiązywania problemów",
-    "ROADMAP/Bez nazwy.md",
-    "NoSQL/Elasticsearch",
-    "JavaScript/Prototype w JS.md",
-    "ROADMAP/Bazy danych - zaawansowane/Migracje.md",
-    "ROADMAP/Bazy danych - zaawansowane/Klastrowanie.md",
     "Bez nazwy.canvas",
     "Spring Boot/Tomcat/Tomcat a DispatcherServlet.canvas",
     "Inne/Obrazy/Pasted image 20241218222426.png",
