@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7db42bd9877094d5",
+        "id": "c70d30fc050a89ba",
         "type": "tabs",
         "children": [
           {
-            "id": "c79a45d5edfff41a",
+            "id": "c677604531cb5720",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jak działa komputer/Przepełnianie zmiennej/Przycięcie wyniku.md",
+                "file": "Jak działa komputer/Przepełnianie zmiennej/Promocja typu.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Przycięcie wyniku"
+              "title": "Promocja typu"
             }
           }
         ]
@@ -176,8 +176,10 @@
       "templates:Wstaw szablon": false
     }
   },
-  "active": "c79a45d5edfff41a",
+  "active": "c677604531cb5720",
   "lastOpenFiles": [
+    "Jak działa komputer/Przepełnianie zmiennej/Promocja typu.md",
+    "Jak działa komputer/Przepełnianie zmiennej/Saturacja.md",
     "Jak działa komputer/Przepełnianie zmiennej/Przycięcie wyniku.md",
     "Jak działa komputer/Przepełnianie zmiennej",
     "Jak działa komputer/CPU vs GPU.md",
@@ -210,8 +212,6 @@
     "Testowanie/Testowanie integracyjne.md",
     "Java/Operatory logiczne/Przesunięcia bitowe/Operatory bitowe.md",
     "Java/Operatory logiczne/Przesunięcia bitowe/Praktyka.md",
-    "Java/Operatory logiczne/Przesunięcia bitowe/Podstawy.md",
-    "Struktury Danych/Drzewa/B-drzewo.md",
     "Zrozumienie programowania (book)",
     "ROADMAP/Web Security",
     "Bez nazwy.canvas",
