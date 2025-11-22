@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jak działa komputer/Strings/Strings.md",
+                "file": "Jak działa komputer/Strings/Znaki.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Strings"
+              "title": "Znaki"
             }
           }
         ]
@@ -179,6 +179,7 @@
   "active": "c0d5b4b219ac8559",
   "lastOpenFiles": [
     "Jak działa komputer/Strings/Strings.md",
+    "Jak działa komputer/Strings/Znaki.md",
     "Jak działa komputer/Strings",
     "Jak działa komputer/Przepełnianie zmiennej/Promocja typu.md",
     "Jak działa komputer/Przepełnianie zmiennej/Saturacja.md",
@@ -212,7 +213,6 @@
     "Jak działa komputer/Rejestr CPU.md",
     "Jak działa komputer",
     "Testowanie/Testowanie integracyjne.md",
-    "Java/Operatory logiczne/Przesunięcia bitowe/Operatory bitowe.md",
     "Zrozumienie programowania (book)",
     "Bez nazwy.canvas",
     "Spring Boot/Tomcat/Tomcat a DispatcherServlet.canvas",
