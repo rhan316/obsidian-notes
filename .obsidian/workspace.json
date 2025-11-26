@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Działanie Parsera (rekurencja + stos)"
             }
+          },
+          {
+            "id": "fa4254b58f72016c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Informacje o wersji 1.10.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,7 +189,7 @@
       "templates:Wstaw szablon": false
     }
   },
-  "active": "19d73db0b144f852",
+  "active": "fa4254b58f72016c",
   "lastOpenFiles": [
     "ParserJSON/Virtual Token Descriptor (VTD).md",
     "ParserJSON/Działanie Parsera (rekurencja + stos).md",
