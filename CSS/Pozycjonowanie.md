@@ -47,7 +47,7 @@ Element:
 ```
 ```css
 .parent {
-	position: relative;
+	position: relative; // Kotwica
 	width: 300px;
 	height: 200px;
 }
@@ -65,3 +65,67 @@ Typowe użycie:
 - tooltipy
 - badge "NEW" w rogu
 - dropdowny
+
+---
+### `position: fixed` - przyklejam się do ekranu
+Element:
+- zawsze liczy pozycję względem okna przeglądarki
+- nie rusza się przy scrollowaniu
+```css
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+```
+Typowe:
+- sticky nav
+- floating button "back to top"
+- chat bubbles w rogu
+---
+### `position: sticky` - dopóki nie przewiniesz
+Hybryda:
+- dopóki nie przewiniesz - zachowuje się jak `relative`
+- kiedy dojedziesz do np. `top: 0` - przykleja się jak `fixed`
+```css
+.header {
+	position: sticky;
+	top: 0;
+}
+```
+Działa wewnątrz kontenera, nie całej strony.
+Fajna rzecz, jak chcesz, żeby np. nagłówek sekcji trzymał się góry podczas scrollowania danego kontenera.
+
+### `top, right, bottom, left`
+
+Działają tylko, gdy: `position != static`
+Interpretacja:
+- `top: 10px` -> przesuń w dół od góry o 10px
+- `left: 10px` -> w prawo od lewej o 10px
+- `right: 10px` -> w lewo od prawej o 10px
+- `bottom: 10px` -> w górę od dołu o 10px
+Tak, jest to upierdliwe, przyzwyczaisz się.
+
+### `z-index` - kto jest na wierzchu
+
+Im większy `z-index`, tym bardziej na froncie.
+Działa tylko dla elementów, które mają `position` różne od `static`:
+```css
+.modal {
+	position: fixed;
+	z-index: 9999;
+}
+```
+Masz dwa elementy, jeden zachodzi na drugi?
+Większy `z-index` wygrywa.
+
+### Typowe pułapki (czyli gdzie ludzie krzyczą "czemu to nie działa?!")
+
+1. `position: absolute` i brak `position` na rodzicu -> element odjeżdża względem całej strony.
+2. `z-index` nie działa -> bo element ma `position: static`
+3. za dużo `absolute` wszędzie -> layout zaczyna się sypać na różnych rozdzielczościach
+
+Dlatego dziś częściej robi się layouty na: `flexbox i grid`
+A `position` używa się do detali, nakładek, tooltipów, overlayów.
+

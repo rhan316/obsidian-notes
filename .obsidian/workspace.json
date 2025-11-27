@@ -178,8 +178,9 @@
   },
   "active": "c3e4eddb06873c71",
   "lastOpenFiles": [
-    "ParserJSON/Tokeny, Tokenizer.md",
+    "CSS/Jednostki.md",
     "CSS/Pozycjonowanie.md",
+    "ParserJSON/Tokeny, Tokenizer.md",
     "CSS",
     "ParserJSON/Działanie Parsera (rekurencja + stos).md",
     "ParserJSON/Virtual Token Descriptor (VTD).md",
@@ -213,7 +214,6 @@
     "ROADMAP/Web Security/API Security/CORS.md",
     "Java/Błędy",
     "ROADMAP/Web Security/Bcrypt.md",
-    "ROADMAP/Web Security/Scrypt.md",
     "Bez nazwy.canvas",
     "Spring Boot/Tomcat/Tomcat a DispatcherServlet.canvas",
     "Inne/Obrazy/Pasted image 20241218222426.png",
