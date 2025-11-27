@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5bfaae34b1dcf5b4",
+        "id": "4b75c3d0391c86bb",
         "type": "tabs",
         "children": [
           {
-            "id": "3bc6be85b5688217",
+            "id": "54cd25dd04d8c7b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/Selektory.md",
+                "file": "Java/GraalVM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Selektory"
+              "title": "GraalVM"
             }
           }
         ]
@@ -176,8 +176,17 @@
       "templates:Wstaw szablon": false
     }
   },
-  "active": "3bc6be85b5688217",
+  "active": "54cd25dd04d8c7b5",
   "lastOpenFiles": [
+    "Java/Comparable.md",
+    "Java/Bez nazwy.md",
+    "Java/JVM.md",
+    "Java/Abstakcja/Ukrywanie implementacji przez abstrakcję.md",
+    "SOAP/Kontrakty.md",
+    "Wzorce projektowe/Most.md",
+    "Java/Adnotacje.md",
+    "Java/Refleksja/Stała klasowa Class.md",
+    "Java/Refleksja/Podstawy refleksji.md",
     "CSS/Selektory.md",
     "CSS/Display.md",
     "CSS/Box Model.md",
@@ -200,16 +209,7 @@
     "Jak działa komputer/Przepełnianie zmiennej/Saturacja.md",
     "Jak działa komputer/Przepełnianie zmiennej/Przycięcie wyniku.md",
     "Jak działa komputer/Przepełnianie zmiennej",
-    "Jak działa komputer/CPU vs GPU.md",
-    "Jak działa komputer/Piksel.md",
-    "Jak działa komputer/Little i Big Endian.md",
-    "Jak działa komputer/Liczby/Liczby zmiennoprzecinkowe.md",
-    "Jak działa komputer/Liczby/Liczby całkowite.md",
-    "Java/Adnotacje.md",
     "Jak działa komputer/Liczby",
-    "NGINX/Wprowadzenie do NGINX.md",
-    "Spring Boot/IoC/Context.md",
-    "SQL Postresql/Koncepty/MVCC.md",
     "SQL Postresql/Koncepty",
     "ROADMAP/NoSQL/InfluxDB",
     "ROADMAP/NoSQL",

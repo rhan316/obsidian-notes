@@ -21,4 +21,24 @@ Optymalizuje kod podczas jego wykonywania, eliminując niepotrzebne instrukcje.
 Native Image - kompilacja do natywnych binarek
 Zamiast uruchamiać kod na JVM, GraalVM kompiluje go do pliku wykonywalnego `.exe`, `.bin`.
 Nie wymaga JVM do działania -aplikacja startuje nawet 10x szybciej!
-Idealne do mikrousług (spring-boot, Quarkus, micronaut)
+Idealne do mikrousług (spring-boot, Quarkus, micronaut).
+
+### GraalVM = alternatywna implementacja JVM
+Nie niszczy klasycznej JVM, nie zastępuje jej siłą, nie odpina kabelków.
+Po prostu... jest inną wersją, z innymi zestawem bajerów.
+
+To jak:
+- OpenJDK - zwykła wersja
+- Oracle HotSpot - popularna wersja
+- GraalVM - szybka wersja z magicznymi sztuczkami
+
+### Minusy:
+- Kompilacja natywna trwa bardzo długo.
+- Musisz dodać "native hints", bo refleksja i dynamiczna magia często nie działa.
+- Debugowanie natywnego kodu może być upierdliwe.
+
+### Kiedy używać?
+- mikroserwisy
+- CLI tools
+- Serverless
+- Wszystko, co musi startować szybko
