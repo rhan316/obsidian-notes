@@ -178,6 +178,7 @@
   },
   "active": "08619753e79a8a7b",
   "lastOpenFiles": [
+    "CSS/GRID.md",
     "CSS/FLEXBOX.md",
     "CSS/Jednostki.md",
     "CSS/Pozycjonowanie.md",
@@ -212,7 +213,6 @@
     "ROADMAP/NoSQL/InfluxDB",
     "ROADMAP/NoSQL",
     "Java/Błędy/Podział błędów w Javie.md",
-    "ROADMAP/Web Security/API Security/CORS.md",
     "Java/Błędy",
     "Bez nazwy.canvas",
     "Spring Boot/Tomcat/Tomcat a DispatcherServlet.canvas",
