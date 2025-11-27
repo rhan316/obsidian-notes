@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9a11d37fbcb6b78b",
+        "id": "5bfaae34b1dcf5b4",
         "type": "tabs",
         "children": [
           {
-            "id": "08619753e79a8a7b",
+            "id": "3bc6be85b5688217",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/FLEXBOX.md",
+                "file": "CSS/Selektory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FLEXBOX"
+              "title": "Selektory"
             }
           }
         ]
@@ -176,10 +176,13 @@
       "templates:Wstaw szablon": false
     }
   },
-  "active": "08619753e79a8a7b",
+  "active": "3bc6be85b5688217",
   "lastOpenFiles": [
-    "CSS/GRID.md",
+    "CSS/Selektory.md",
+    "CSS/Display.md",
+    "CSS/Box Model.md",
     "CSS/FLEXBOX.md",
+    "CSS/GRID.md",
     "CSS/Jednostki.md",
     "CSS/Pozycjonowanie.md",
     "ParserJSON/Tokeny, Tokenizer.md",
@@ -208,11 +211,8 @@
     "Spring Boot/IoC/Context.md",
     "SQL Postresql/Koncepty/MVCC.md",
     "SQL Postresql/Koncepty",
-    "ROADMAP/NoSQL/InfluxDB.md",
-    "Java/Błędy/Throw vs. Throws.md",
     "ROADMAP/NoSQL/InfluxDB",
     "ROADMAP/NoSQL",
-    "Java/Błędy/Podział błędów w Javie.md",
     "Java/Błędy",
     "Bez nazwy.canvas",
     "Spring Boot/Tomcat/Tomcat a DispatcherServlet.canvas",
