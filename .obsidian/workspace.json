@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/GraalVM.md",
+                "file": "ParserJSON/Jak działa metoda match().md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GraalVM"
+              "title": "Jak działa metoda match()"
             }
           }
         ]
@@ -178,6 +178,8 @@
   },
   "active": "54cd25dd04d8c7b5",
   "lastOpenFiles": [
+    "Java/GraalVM.md",
+    "ParserJSON/Jak działa metoda match().md",
     "Java/Comparable.md",
     "Java/Bez nazwy.md",
     "Java/JVM.md",
@@ -206,8 +208,6 @@
     "Jak działa komputer/Strings/Strings.md",
     "Jak działa komputer/Strings",
     "Jak działa komputer/Przepełnianie zmiennej/Promocja typu.md",
-    "Jak działa komputer/Przepełnianie zmiennej/Saturacja.md",
-    "Jak działa komputer/Przepełnianie zmiennej/Przycięcie wyniku.md",
     "Jak działa komputer/Przepełnianie zmiennej",
     "Jak działa komputer/Liczby",
     "SQL Postresql/Koncepty",
