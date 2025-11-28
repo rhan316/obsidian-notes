@@ -2,13 +2,13 @@ Domyślnie elementy w CSS układają się:
 - *od góry do dołu* (block: `div, p, h1` itd.)
 - *od lewej do prawej* (inline: `span, a` itd.)
 To jest tzw. ***Normal Flow***
-Dopóki nie ruszysz `position`, przeglądarka sam decyduje gdzie co stoi.
+Dopóki nie ruszysz `position`, przeglądarka sama decyduje gdzie co stoi.
 
 ### `position`
 Masz 5 podstawowych wartości:
 - `static` -> domyślnie, "nic nie kombinuję"
 - `relative` -> przesuwam się trochę względem swojego miejsca
-- `absolute` -> wyrywam się z normalnego układu i przyklejam gdzieś
+- `absolute` -> wyrywam się z normalnego układu i przyklejam się gdzieś
 - `fixed` -> przyklejony do końca przeglądarki
 - `sticky` -> hybryda: trochę normalny, trochę przyklejony podczas scrolla
 
