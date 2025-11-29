@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "018b63a9f14f1bd2",
+        "id": "cdc93ae936816957",
         "type": "tabs",
         "children": [
           {
-            "id": "1be6710334472238",
+            "id": "a5d2814de4ec56cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/JVM.md",
+                "file": "APIs/GraphQL/Mutacje i Subskrypcje.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JVM"
+              "title": "Mutacje i Subskrypcje"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5,
-    "collapsed": true
+    "width": 313.5
   },
   "right": {
     "id": "5a4f08e1fce0d511",
@@ -176,8 +175,15 @@
       "templates:Wstaw szablon": false
     }
   },
-  "active": "1be6710334472238",
+  "active": "a5d2814de4ec56cb",
   "lastOpenFiles": [
+    "APIs/GraphQL/Mutacje i Subskrypcje.md",
+    "APIs/GraphQL/Jak działa GraphQL.md",
+    "APIs/GraphQL/Jak GraphQL ogólnie działa.md",
+    "APIs/GraphQL/Co to jest GraphQL.md",
+    "APIs/GraphQL",
+    "APIs",
+    "Java/JVM.md",
     "Java/ChronoUnit.md",
     "Java/Adnotacje.md",
     "Java/Abstakcja/Ukrywanie implementacji przez abstrakcję.md",
@@ -193,27 +199,20 @@
     "Java/GraalVM.md",
     "Java/Comparable.md",
     "Java/Bez nazwy.md",
-    "Java/JVM.md",
-    "SOAP/Kontrakty.md",
+    "APIs/SOAP/Kontrakty.md",
     "Wzorce projektowe/Most.md",
     "Java/Refleksja/Stała klasowa Class.md",
     "Java/Refleksja/Podstawy refleksji.md",
     "ParserJSON/Tokeny, Tokenizer.md",
     "CSS",
     "ParserJSON/Działanie Parsera (rekurencja + stos).md",
-    "ParserJSON/Virtual Token Descriptor (VTD).md",
     "ParserJSON",
-    "Python/self.md",
-    "Python/Generatory.md",
     "Python",
-    "Jak działa komputer/Strings/Znaki.md",
     "Jak działa komputer/Strings",
     "Jak działa komputer/Przepełnianie zmiennej",
     "Jak działa komputer/Liczby",
     "SQL Postresql/Koncepty",
     "ROADMAP/NoSQL/InfluxDB",
-    "ROADMAP/NoSQL",
-    "Java/Błędy",
     "Bez nazwy.canvas",
     "Spring Boot/Tomcat/Tomcat a DispatcherServlet.canvas",
     "Inne/Obrazy/Pasted image 20241218222426.png",
