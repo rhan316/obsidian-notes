@@ -40,3 +40,107 @@ Analogia: GC to ktoś, to sprząta w czasie rzeczywistym. Czasem działa spokojn
 `-Xms` i `-Xmx` - ustalają minimalny i maksymalny rozmiar sterty.
 `-XX:+UseG1GC` - wybór konkretnego Garbage Collector.
 `-Xss` - ustala wielkość stosu dla jednego wątku.
+
+### 1. Class Loader Subsystem
+*czyli kto w ogóle ładuje twoje pieprzone klasy*
+
+JVM ma 3 główne loadery:
+- ##### Bootstrap ClassLoader - Ładuje rt.jar / moduły JDK, rzeczy najbardziej fudamentalne.
+- ##### Platform ClassLoader - ładuje rzeczy z `java.*, jdk.*`
+- ##### Application ClassLoader - ładuje twoje klasy, JAR-y, moduły aplikacji.
+
+I możesz jeszcze dorzucać *custom class loadery*, jak zwyczajny sadysta.
+JVM buduje z tego hierarchię delegacji - najpierw pyta wyżej, potem niżej.
+
+### 2. Runtime Data Areas
+czyli pamięć JVM - tu zaczyna się zabawa
+
+JVM dzieli pamięć na kilka obszarów, każdy z innym przeznaczeniem.
+
+#### Heap
+- miejsce na obiekty
+- podzielone na ***Young Gen*** (Eden + Survivor) i ***Old Gen***
+- zarządzane przez GC (garbage collector)
+- to, co wkurwia programistów najbardziej
+
+#### Stack
+- jeden stack *per thread*
+- trzyma ramki wywołań, zmienne lokalne, referencje
+- tu dzieją się wszystkie NPE tragedie
+
+#### PC Register
+- wskaźnik na aktualną instrukcję Java Bytecode
+- każdy thread ma swoje
+
+#### Native Method Stack
+- dla metod `native`, C++ itd.
+
+#### Metaspace
+- successor PermGen
+- trzyma metadane klas, metody, constant pool
+- rośnie dynamicznie, nie ma stałego limitu jak stare PermGen
+
+### Execution Engine
+czyli sam mózg JVM - to, co tak naprawdę odpala kod.
+
+Składa się z kilku potworów, każdy do czegoś ważnego.
+
+#### Interpreter
+- wykonuje bytecode linijka po linijce
+- szybki start, wolna praca
+- działa do momentu, aż JIT stwierdzi: "ten kod żyje wystarczająco długo"
+
+#### JIT Compiler (C1 i C2 / GraalVM)
+Tu jest magia.
+
+- ***C1 (Client Compiler)*** -> szybki, lekki, kompiluje częściej
+- ***C2 (Server Compiler)*** -> cięższa optymalizacja, robi cuda na poziomie kodu
+- ***Graal JIT*** -> nowoczesny, agresywnie optymalizujący kompilator (w JVM od JDK 17+ jako opcja)
+JIT kompiluje hot spoty z bytecode -> do natywnego kodu maszynowego.
+Czyli JVM to hybryda:
+- najpierw interpreter
+- potem JIT
+- potem natywny kod
+- potem optymalizacje w locie
+
+### Garbage Collector
+czyli śmieciarz twoich błędów.
+
+Nowoczesny JVM ma kilka GC, wybierasz w zależności od potrzeb:
+
+**G1 GC** -> domyślny. Low-pause. Dzieli heap na regiony.
+**ZGC** -> ultra-low pause, duże systemy, heap 100GB+
+**Shenandoah** -> OpenJDK + RedHat, niski pause time, współbieżny marking
+**Parallel GC** -> Stary, szybki throughput, ale długi stop-the-world
+**Serial GC** -> dla systemów z małą pamięcią. Dinozaur
+
+### Native Interface (JNI / Panama)
+Pozwala JVM gadać z natywnym C/C++/Rust.
+JNI jest koszmarem, więc robią nowy Projekt Panama, który ma to naprawić.
+
+### Bytecode Verifier
+Sprawdza, czy bytecode:
+- nie łamie bezpieczeństwa
+- nie psuje typów
+- nie robi stack underflow/overflow
+- nie manipuluje wskaźnikami
+- nie zachowuje się jak ty po 3 piwach
+Bez tego JVM by się rozpadał.
+
+### JFR + JIT Profiling
+Nowoczesny JVM sam monitoruje, które metody są:
+- najczęściej wykonane
+- najcięższe
+- warte kompilacji
+- do zoptymalizowania
+- do de-optymalizacji
+To dlatego JVM "uczy się w locie"
+
+### Moduły (JPMS)
+Od JDK 9 działają moduły Java:
+- optymalizacja
+- mniejszy footprint
+- lepszy packaging
+No i wkurwiają wszystkich.
+
+
