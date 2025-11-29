@@ -13,3 +13,9 @@ mutation {
 	}
 }
 ```
+Co to robi?
+- woła resolver `createUser`
+- tworzy użytkownika
+- zwraca dokładnie te pola, o które prosiłeś
+Tak, możesz tworzyć/modyfikować/usuwać dane i od razu decydować, co chcesz dostać w odpowiedzi. REST może tylko patrzeć z boku i płakać.
+
