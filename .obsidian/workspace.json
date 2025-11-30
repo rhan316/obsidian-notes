@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APIs/GraphQL/Mutacje i Subskrypcje.md",
+                "file": "APIs/GraphQL/Podstawy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mutacje i Subskrypcje"
+              "title": "Podstawy"
             }
           }
         ]
@@ -179,6 +179,7 @@
   "active": "a5d2814de4ec56cb",
   "lastOpenFiles": [
     "APIs/GraphQL/Mutacje i Subskrypcje.md",
+    "APIs/GraphQL/Podstawy.md",
     "APIs/GraphQL/Jak działa GraphQL.md",
     "APIs/GraphQL/Jak GraphQL ogólnie działa.md",
     "APIs/GraphQL/Co to jest GraphQL.md",
@@ -206,7 +207,6 @@
     "Java/Refleksja/Podstawy refleksji.md",
     "ParserJSON/Tokeny, Tokenizer.md",
     "CSS",
-    "ParserJSON/Działanie Parsera (rekurencja + stos).md",
     "ParserJSON",
     "Python",
     "Jak działa komputer/Strings",
