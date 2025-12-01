@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kotlin/this vs it.md",
+                "file": "Kotlin/scopes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "this vs it"
+              "title": "scopes"
             }
           }
         ]
@@ -178,8 +178,8 @@
   },
   "active": "6cb37368a74b7dfc",
   "lastOpenFiles": [
-    "Kotlin/scopes.md",
     "Kotlin/this vs it.md",
+    "Kotlin/scopes.md",
     "Kotlin/extension function.md",
     "Kotlin/sealed classes & sealed interfaces.md",
     "Kotlin/when.md",

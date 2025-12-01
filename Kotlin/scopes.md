@@ -52,3 +52,34 @@ Najczęściej debug, walidacje, logi.
 val user = User("Courtney")
 	.also { println("Tworzę user: $it")}
 ```
+
+### WITH -> nie jest extension, ale działa jak run
+```kotlin
+with(user) {
+	println(name)
+	println(age)
+}
+```
+***With = kod w kontekście obiektu, bez zmiennych tymczasowych***
+Najczyściej wygląda, gdy masz dużo operacji na jednym obiekcie.
+
+```ini
+apply/also → wracają TO SAMO
+run/let   → wracają COŚ INNEGO
+apply/run → this
+let/also  → it
+```
+
+```json
+- let — „daj wynik”
+    
+- apply — „ustawiam obiekt”
+    
+- run — „robię i zwracam”
+    
+- also — „robię coś dodatkowego”
+    
+- with — „wejdź w kontekst i pisz krócej”
+```
+
+
