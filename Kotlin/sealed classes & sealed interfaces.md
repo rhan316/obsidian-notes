@@ -47,6 +47,8 @@ I wtedy:
 ```kotlin
 sealed interface Operation
 
-
+class Add(val x: Int, val y: Int): Operation
+class Sub(val x: Int, val y: Int): Operation
+object NoOp: Operation
 ```
 
