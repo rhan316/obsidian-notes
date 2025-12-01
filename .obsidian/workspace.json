@@ -171,8 +171,9 @@
       "templates:Wstaw szablon": false
     }
   },
-  "active": "0acb1efc243320fe",
+  "active": "7cbd8ca1a009332e",
   "lastOpenFiles": [
+    "Kotlin",
     "Java - Podejście funkcyjne/Interfejsy funkcyjne/Predykaty(Predicate).md",
     "Java - Podejście funkcyjne/Interfejsy funkcyjne/Dostawcy(Supplier).md",
     "Java - Podejście funkcyjne/Interfejsy funkcyjne/Funkcje (Function).md",
@@ -200,7 +201,6 @@
     "CSS/Box Model.md",
     "ParserJSON/Jak działa metoda match().md",
     "Java/GraalVM.md",
-    "Java/Comparable.md",
     "CSS",
     "ParserJSON",
     "Python",
