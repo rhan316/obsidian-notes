@@ -24,4 +24,17 @@ Ale Kotlin:
 ### Jak to działa pod spodem?
 To:
 ```kotlin
+"tekst".lastChar()
+kompilator zmienia na:
+lastChar("tekst")
+```
+Zero magii.
+Zero runtime hacków.
+Żadnego rozszerzenia klasy jak w C#
+Po prostu ładna składnia.
+
+**Sygnatura extension function**
+```kotlin
+fun <receiverType>.nazwaFunkcji(...)
+Receiver to ten typ, po którym możesz wołać funkcję jak metodę.
 ```
