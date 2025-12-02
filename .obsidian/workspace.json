@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2bb6293ca0cfada6",
+        "id": "a21bec0ef27c4e03",
         "type": "tabs",
         "children": [
           {
-            "id": "6cb37368a74b7dfc",
+            "id": "4d7b76c4b26a4587",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5,
-    "collapsed": true
+    "width": 313.5
   },
   "right": {
     "id": "5a4f08e1fce0d511",
@@ -156,8 +155,19 @@
               "icon": "clock",
               "title": "Reminders"
             }
+          },
+          {
+            "id": "6d2d74e07242337a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -176,10 +186,12 @@
       "templates:Wstaw szablon": false
     }
   },
-  "active": "6cb37368a74b7dfc",
+  "active": "4d7b76c4b26a4587",
   "lastOpenFiles": [
-    "Kotlin/this vs it.md",
+    "zdjęcia",
+    "zdjęcia/Pasted image 20251202095332.png",
     "Kotlin/scopes.md",
+    "Kotlin/this vs it.md",
     "Kotlin/extension function.md",
     "Kotlin/sealed classes & sealed interfaces.md",
     "Kotlin/when.md",
@@ -206,7 +218,6 @@
     "CSS/Pozycjonowanie.md",
     "CSS/Selektory.md",
     "CSS/Jednostki.md",
-    "CSS/GRID.md",
     "CSS",
     "ParserJSON",
     "Python",
@@ -225,7 +236,6 @@
     "Inne/Obrazy/Pasted image 20241021155430.png",
     "Inne/Obrazy/Pasted image 20241021154109.png",
     "Inne/Obrazy/Pasted image 20241021153927.png",
-    "Inne/Obrazy/Pasted image 20241021153447.png",
-    "SQL Postresql/Funkcje znakowe/Pasted image 20241021153258.png"
+    "Inne/Obrazy/Pasted image 20241021153447.png"
   ]
 }

@@ -5,6 +5,7 @@
 - nie pisać miliona tymczasowych zmiennych
 Czyściejszy kod, mniej smrodu więcej elegancji.
 
+![[Pasted image 20251202095332.png]]
 ### Tabela prawdy
 
 | Funkcja | Receiver | Zwraca      | Użycie                                | Zapamiętaj tak:            |

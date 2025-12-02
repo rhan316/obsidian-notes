@@ -1,4 +1,6 @@
 {
   "spellcheck": true,
-  "trashOption": "local"
+  "trashOption": "local",
+  "attachmentFolderPath": "zdjęcia",
+  "showUnsupportedFiles": true
 }
