@@ -50,7 +50,7 @@ Identity = wartość startowa, np.:
 - puste "" dla konkatenacji
 - neutralne elementy monoidów (tak, matematyka, przeżyjesz)
 
-### `reducee(identity, acc, combiner)`
+### `reduce(identity, acc, combiner)`
 Najbardziej popierdolona wersja.
 Używana automatycznie przez parallelStream().
 Np.
@@ -66,8 +66,15 @@ Tu dzieje się PIEKŁO:
 - każdy kawałek jest redukowany osobno,
 - potem łączony combinerem.
 Dlatego właśnie operator musi być ASOCJATYWNY.
-
 O tym zaraz.
+
+`acc` działa na elementach strumienia.
+`combiner` działa na częściowych wynikach (częściach wyniku `reduce(identity, acc)`)
+Np. suma:
+```java
+acc: (partialSum, element) -> partialSum + element
+combiner: (sum1, sum2) -> sum1 + sum2
+```
 
 ### Jak działa reduce w praktyce
 
@@ -120,3 +127,37 @@ Chcesz zbierać -> używaj `collect()`, nie `reduce()`.
 **Używanie nieasocjatywnego operatora**
 Odejmowanie w parallel stream?
 Gratulacje, właśnie wywołałeś losowość jak RNG w grach.
+
+### identity - cały sekret redukcji
+
+Identity musi spełniać:
+```java
+identity op x == x
+x op identity == x
+```
+Dla dodawania -> 0
+Dla mnożenia -> 1
+Dla "złącz stringi" -> ""
+Dla OR -> false
+Dla AND -> true
+
+Jak identity nie pasuje -> wynik wychodzi spiepszony.
+
+
+### reduce() vs collect() - nie myl
+
+`reduce()` -> redukuje do jednego elementu
+`collect()` -> buduje nowe obiekty / kolekcje / struktury
+Jak tworzysz listę -> użyj `toList()`, nie `reduce()`
+Jak tworzysz mapę -> collect
+Jak tworzysz string -> joining
+reduce() = ostateczna operacja, nie budowniczy kolekcji.
+
+```java
+int sum = list.stream()
+			.reduce(0, Integer::sum);
+			
+int max = list.parallelStream()
+			.reduce(Integer.MIN_VALUE, Integer::max, Integer::max);
+```
+

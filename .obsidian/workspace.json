@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java - Podejście funkcyjne/Redukcja reduce().md",
+                "file": "Java - Podejście funkcyjne/Kompedium collect().md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Redukcja reduce()"
+              "title": "Kompedium collect()"
             }
           }
         ]
@@ -190,6 +190,7 @@
   "active": "cec98a11a9ac4244",
   "lastOpenFiles": [
     "Java - Podejście funkcyjne/Redukcja reduce().md",
+    "Java - Podejście funkcyjne/Kompedium collect().md",
     "Java - Podejście funkcyjne/Redukcja i akumulacja.md",
     "Kotlin/scopes.md",
     "zdjęcia",
@@ -219,7 +220,6 @@
     "Java/Abstakcja/Ukrywanie implementacji przez abstrakcję.md",
     "Java/Abstakcja/Abstrakcja danych.md",
     "CSS/Pozycjonowanie.md",
-    "CSS/Selektory.md",
     "CSS",
     "ParserJSON",
     "Python",
