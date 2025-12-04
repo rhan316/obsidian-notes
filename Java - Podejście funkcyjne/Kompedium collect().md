@@ -41,3 +41,32 @@ List<String> list = stream.collect(
 	List::addAll // combiner
 )
 ```
+
+#### `collect(Collector)` - z własnym kolektorem
+
+Możesz sam zrobić kolektor:
+```java
+Collector<T, A, B>
+```
+
+I budować potwór, które robią:
+- grupowanie
+- particjonowanie
+- mapowanie
+- mapowanie
+- składowanie obiektów
+- tworzenie niestandardowych kontenerów
+
+### Collectors - zestaw narzędzi jak szwajcarski scyzoryk
+
+Najważniejsze: 
+`toList()` - tworzy listę, 
+`toSet()`- tworzy HashSet, 
+`toCollection(...)` - tworzy dowolną kolekcję `toCollection(LinkedList::new)`
+
+*`joining()`* łączenie stringów: `Collectors.joining(", ")`
+*`counting(), summingInt(), averagingDouble(), summarizingInt()`* gotowe agregatory
+*`groupingBy(...)`* - król kolektorów
+`stream.collect(groupingBy(User::getAge))` Daje `Map<Age, List<User>>`
+
+
