@@ -1,7 +1,7 @@
 
 ### Po co istnieją puste Streamy?
 
-**Bezpieczny "nic-tu-nie-ma" obiekt
+**Bezpieczny "nic-tu-nie-ma" obiekt**
 ```java
 zamiast:
 if (list == null || list.isEmpty()) return Stream.empty();
@@ -14,7 +14,7 @@ To taka... gumowa krawędź na twoim dziecięcym rowerku Java.
 
 Streamy i Lambdy pomagają w czystszych konstrukcjach funkcjonalnych, gdzie operujesz na wartościach, nie na warunkach.
 
-**Zgodność z pipeline'ami
+**Zgodność z pipeline'ami**
 
 Stream może być pusty, ale wciąż możesz napisać: `Stream.empty().map(...).filter(...).findFirst();`
 i nic nie wybucha.

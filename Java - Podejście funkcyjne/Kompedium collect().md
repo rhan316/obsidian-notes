@@ -13,12 +13,12 @@ Reduce? Filter? Map? To maluchy.
 - operacje na mutowalnych kontenerach,
 - równoległa redukcja na mutowalnych strukturach.
 
-To fabryk wyników.
+To fabryka wyników.
 Koniec gadania.
 
 ## 3 wersje - i każda jest inna
 
-### `collect(Collector<T, A, R> collector`
+### `collect(Collector<T, A, R> collector`)
 
 To jest ta wersja, której prawie zawsze używasz:
 ```java
