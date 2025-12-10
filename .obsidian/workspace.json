@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2c541fbe960c8e2a",
+        "id": "9fd23ccb96cdfbf2",
         "type": "tabs",
         "children": [
           {
-            "id": "20af6dc43b13a0af",
+            "id": "af0bba30f66fc54b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring Boot/Spring JPA/JDBCTemplate.md",
+                "file": "Spring Boot/Spring JPA/BLOB & CLOB.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JDBCTemplate"
+              "title": "BLOB & CLOB"
             }
           }
         ]
@@ -187,8 +187,10 @@
       "templates:Wstaw szablon": false
     }
   },
-  "active": "20af6dc43b13a0af",
+  "active": "af0bba30f66fc54b",
   "lastOpenFiles": [
+    "Spring Boot/Spring JPA/BLOB & CLOB.md",
+    "Spring Boot/Spring JPA/JDBCTemplate.md",
     "Spring Boot/Spring JPA/JdbcClient.md",
     "Spring Boot/Spring JPA/SimpleJdbcInsert & SimpleJdbcCall.md",
     "zdjęcia/Pasted image 20251210115544.png",
@@ -201,7 +203,6 @@
     "zdjęcia/Pasted image 20251210112739.png",
     "zdjęcia/Pasted image 20251210112039.png",
     "zdjęcia/Pasted image 20251210111720.png",
-    "Spring Boot/Spring JPA/JDBCTemplate.md",
     "zdjęcia/Pasted image 20251210111034.png",
     "Spring JPA",
     "Projektowanie pod interfejsy.md",
