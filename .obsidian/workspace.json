@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9fd23ccb96cdfbf2",
+        "id": "4f6085bfedebd514",
         "type": "tabs",
         "children": [
           {
-            "id": "af0bba30f66fc54b",
+            "id": "b43471b16475c4ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring Boot/Spring JPA/BLOB & CLOB.md",
-                "mode": "preview",
+                "file": "Spring Boot/Spring JPA/DataSource.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BLOB & CLOB"
+              "title": "DataSource"
             }
           }
         ]
@@ -187,19 +187,20 @@
       "templates:Wstaw szablon": false
     }
   },
-  "active": "af0bba30f66fc54b",
+  "active": "b43471b16475c4ae",
   "lastOpenFiles": [
-    "Spring Boot/Spring JPA/BLOB & CLOB.md",
+    "Spring Boot/Spring JPA/DataSource.md",
+    "Spring Boot/Spring JPA/GeneratedValue.md",
     "Spring Boot/Spring JPA/JDBCTemplate.md",
-    "Spring Boot/Spring JPA/JdbcClient.md",
     "Spring Boot/Spring JPA/SimpleJdbcInsert & SimpleJdbcCall.md",
+    "Spring Boot/Spring JPA/BLOB & CLOB.md",
+    "Spring Boot/Spring JPA/JdbcClient.md",
     "zdjęcia/Pasted image 20251210115544.png",
     "zdjęcia/Pasted image 20251210115211.png",
     "zdjęcia/Pasted image 20251210114212.png",
     "zdjęcia/Pasted image 20251210114152.png",
     "zdjęcia/Pasted image 20251210114133.png",
     "zdjęcia/Pasted image 20251210114117.png",
-    "Spring Boot/Spring JPA/GeneratedValue.md",
     "zdjęcia/Pasted image 20251210112739.png",
     "zdjęcia/Pasted image 20251210112039.png",
     "zdjęcia/Pasted image 20251210111720.png",
@@ -226,7 +227,6 @@
     "Java - Podejście funkcyjne/Budowanie potoków strumieniowych/Mapowanie, filtrowanie, redukcja.md",
     "Java - Podejście funkcyjne/Budowanie potoków strumieniowych/Collect().md",
     "Java - Podejście funkcyjne/Budowanie potoków strumieniowych/collect Collector Collectors.md",
-    "Java - Podejście funkcyjne/Redukcja reduce().md",
     "ParserJSON/kod",
     "zdjęcia",
     "Kotlin",
