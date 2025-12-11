@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring Boot/Spring JPA/JDBCTemplate.md",
-                "mode": "preview",
+                "file": "Spring Boot/AOP.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JDBCTemplate"
+              "title": "AOP"
             }
           }
         ]
@@ -188,11 +188,15 @@
   },
   "active": "e04c8753b212fc31",
   "lastOpenFiles": [
+    "zdjęcia/Pasted image 20251211121804.png",
+    "zdjęcia/Pasted image 20251211121716.png",
+    "zdjęcia/Pasted image 20251211121546.png",
+    "Spring Boot/Spring JPA/JDBCTemplate.md",
+    "Spring Boot/AOP.md",
     "Spring Boot/Spring JPA/JdbcClient.md",
     "Spring Boot/Spring JPA/HikariCP.md",
     "Spring Boot/Spring JPA/DataSource.md",
     "Spring Boot/Spring JPA/GeneratedValue.md",
-    "Spring Boot/Spring JPA/JDBCTemplate.md",
     "Spring Boot/Spring JPA/SimpleJdbcInsert & SimpleJdbcCall.md",
     "Spring Boot/Spring JPA/BLOB & CLOB.md",
     "zdjęcia/Pasted image 20251210115544.png",
@@ -203,8 +207,6 @@
     "zdjęcia/Pasted image 20251210114117.png",
     "zdjęcia/Pasted image 20251210112739.png",
     "zdjęcia/Pasted image 20251210112039.png",
-    "zdjęcia/Pasted image 20251210111720.png",
-    "zdjęcia/Pasted image 20251210111034.png",
     "Spring JPA",
     "Projektowanie pod interfejsy.md",
     "Java/Try {} Catch().md",
@@ -224,8 +226,6 @@
     "Jak działa komputer/Piksel.md",
     "Algorytmy/Najdłuższa rosnąca podsekwencja LIS.md",
     "Java - Podejście funkcyjne/Interfejsy funkcyjne/Dostawcy(Supplier).md",
-    "Java - Podejście funkcyjne/Budowanie potoków strumieniowych/Mapowanie, filtrowanie, redukcja.md",
-    "Java - Podejście funkcyjne/Budowanie potoków strumieniowych/Collect().md",
     "ParserJSON/kod",
     "zdjęcia",
     "Kotlin",
