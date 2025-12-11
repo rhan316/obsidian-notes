@@ -20,4 +20,22 @@ Każdy z nich to osobny bean:
 public DataSource primaryDataSource() {
 	return DataSourceBuilder.create().build();
 }
+
+@Bean
+@ConfigurationProperties("spring.datasource.report")
+public DataSource reportDataSource() {
+	return DataSourceBuilder.create().build();
+}
 ```
+
+### A co z JPA?
+
+Tutaj zaczynają się schody i ludzie krwawią z nosa.
+Bo musisz mieć:
+- `EntityManagerFactory` per DataSource
+- `TransactionManager` per DataSource
+- osobne pakiety z encjami.
+![[Pasted image 20251211165142.png]]
+
+![[Pasted image 20251211165228.png]]
+
