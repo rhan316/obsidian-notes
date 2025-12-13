@@ -3,7 +3,7 @@
 
 ```java
 public void saveUser() {
-	log.infor("start");
+	log.info("start");
 	...
 	log.info("end");
 }
