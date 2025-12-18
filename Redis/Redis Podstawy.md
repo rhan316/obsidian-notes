@@ -52,3 +52,20 @@ public void saveToSet(String key, String value) {
 
 Kiedy pamięć się kończy, Redis musi coś wyrzucić. Najważniejszy dla ciebie to **LRU (Least Recently Used)** - wywala to, czego nikt dawno nie dotykał. **TTL (Time To Live)** to twój obowiązek - każdy klucz w cache POWINIEN mieć czas wygaśnięcia.
 
+### TL;DR Polski
+
+- Co to = Baza in-memory (RAM), mega szybka, jednowątkowa
+- Po co = Cache, sesje, blokady rozproszone, kolejki
+- Java = Używasz bibliotek Jedis lub Lettuce (Spring Boot domyślnie używa Lettuce)
+- Spring = `@Cacheable` dla wygody, `RedisTemplate` dla precyzji
+- Pamiętaj = Zawsze ustawiaj TTL, bo zapchasz RAM i produkcja padnie
+
+### TL;DR English
+
+- What = Single-threaded, In-memory data source
+- Use cases = Caching, session store, distributed locks, leaderboards
+- Java stack = Lettuce (default in Spring) or Jedis
+- Spring = Use `@Cacheable` for abstraction or `RedisTemplate` for advanced data structure manipulation
+- Pro tip = Always define an eviction policy (like LRU) and set TTL on keys to prevent OOM (Out Of Memory) errors.
+
+
