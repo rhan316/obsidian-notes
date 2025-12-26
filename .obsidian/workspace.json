@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a32b1fbc62d7625f",
+        "id": "9ace5d4803a32550",
         "type": "tabs",
         "children": [
           {
-            "id": "bbbc95c9b3fef27c",
+            "id": "114576181a9722e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redis/Redis Podstawy.md",
+                "file": "Java - Podejście funkcyjne/Interfejs funkcyjny, lambda.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Redis Podstawy"
+              "title": "Interfejs funkcyjny, lambda"
             }
           }
         ]
@@ -187,8 +187,10 @@
       "templates:Wstaw szablon": false
     }
   },
-  "active": "bbbc95c9b3fef27c",
+  "active": "114576181a9722e2",
   "lastOpenFiles": [
+    "Java/Klasy abstrakcyjne.md",
+    "Java - Podejście funkcyjne/Interfejs funkcyjny, lambda.md",
     "Redis/Redis Podstawy.md",
     "Redis",
     "Spring Boot/AOP.md",
@@ -223,12 +225,10 @@
     "Java/Serializacja.md",
     "Java/Sealed Classes.md",
     "Java/Resource Bundle.md",
-    "Java/Klasy abstrakcyjne.md",
     "Spring/Data JPA/Encje.md",
     "Spring/Data JPA/Criteria API.md",
     "Spring Boot/Spring JPA/Paging and Sorting.md",
     "Spring Boot/Spring JPA/Projections.md",
-    "Jak działa komputer/Liczby/Liczby zmiennoprzecinkowe.md",
     "Jak działa komputer/Procesy, wątki",
     "ParserJSON/kod",
     "zdjęcia",
